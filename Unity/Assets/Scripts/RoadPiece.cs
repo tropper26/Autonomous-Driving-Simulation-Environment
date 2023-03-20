@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,22 +6,51 @@ using static Drag;
 
 public class RoadPiece : MonoBehaviour {
 
-    
+    Boolean rotateable = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        rotateable = true;
     }
 
     private void Update()
     {
-         // Test with to snap to simple rectangle
-         //GameObject square = GameObject.Find("Square");
-         //snapToSquare(piece, square);
+        // Test with to snap to simple rectangle
+        //GameObject square = GameObject.Find("Square");
+        //snapToSquare(piece, square);
+        if (rotateable && Input.GetKeyDown(KeyCode.A))
+        {
+            this.transform.Rotate(0, 0, 15);
+
+        }
+        else if(rotateable && Input.GetKeyDown(KeyCode.D))
+        {
+            this.transform.Rotate(0, 0, -15);
+
+        }
+
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            rotateable = false;
+        }
+
+
+
     }
 
-    
+
+    //private void OnMouseDown()
+    //{
+    //    var clickedObject = gameObject;
+    //    if (Input.GetKeyDown(KeyCode.Space))
+    //    {
+    //        clickedObject.transform.Rotate(0, 0, -15);
+
+    //    }
+    //}
+
+
 
     /**
      * method to snap object to square - test
@@ -41,5 +71,5 @@ public class RoadPiece : MonoBehaviour {
     //}
 
 
-    
+
 }
