@@ -706,31 +706,31 @@ namespace OpenDriveXMLGenerator
             var incomingRoadId2 = id;
             var incomingRoad2 = this.AddStraightRoad(startX2, startY2, hdg, 0.5, false);
 
-            if (traffic_light)
-            {
-                var signals = incomingRoad2.AddSignalsElement();
-                signals.AddSignalElement(
-                    country: "OpenDRIVE",
-                    dynamic: "yes",
-                    hOffset: "0.0",
-                    height: "1.1595988571643829",
-                    id: signalId.ToString(),
-                    name: "Signal_3Light_Post01",
-                    orientation: "+",
-                    pitch: "0",
-                    roll: "1.57079632679",
-                    s: "4.7935599305216234",
-                    subtype: "-1",
-                    t: "-5",
-                    text: "",
-                    type: "1000001",
-                    value: "-1",
-                    width: "0.5249232020563757",
-                    zOffset: "0.0"
-                );
+            //if (traffic_light)
+            //{
+            //    var signals = incomingRoad2.AddSignalsElement();
+            //    signals.AddSignalElement(
+            //        country: "OpenDRIVE",
+            //        dynamic: "yes",
+            //        hOffset: "0.0",
+            //        height: "1.1595988571643829",
+            //        id: signalId.ToString(),
+            //        name: "Signal_3Light_Post01",
+            //        orientation: "-",
+            //        pitch: "0",
+            //        roll: "-1.57079632679",
+            //        s: "4.7935599305216234",
+            //        subtype: "-1",
+            //        t: "5",
+            //        text: "",
+            //        type: "1000001",
+            //        value: "-1",
+            //        width: "0.5249232020563757",
+            //        zOffset: "0.0"
+            //    );
 
-                signalId++;
-            }
+            //    signalId++;
+            //}
 
 
             float startX3 = startX + 9f * (float)Math.Cos(hdg) + 9f * (float)Math.Sin(hdg);
@@ -754,7 +754,7 @@ namespace OpenDriveXMLGenerator
                     roll: "1.57079632679",
                     s: "4.7935599305216234",
                     subtype: "-1",
-                    t: "5",
+                    t: "-5",
                     text: "",
                     type: "1000001",
                     value: "-1",
@@ -813,7 +813,7 @@ namespace OpenDriveXMLGenerator
                     roll: "1.57079632679",
                     s: "4.7935599305216234",
                     subtype: "-1",
-                    t: "5",
+                    t: "-5",
                     text: "",
                     type: "1000001",
                     value: "-1",
@@ -830,31 +830,31 @@ namespace OpenDriveXMLGenerator
             var incomingRoadId2 = id;
             var incomingRoad2 = this.AddStraightRoad(startX2, startY2, hdg, 0.5f, false);
 
-            if (traffic_light)
-            {
-                var signals = incomingRoad2.AddSignalsElement();
-                signals.AddSignalElement(
-                    country: "OpenDRIVE",
-                    dynamic: "yes",
-                    hOffset: "0.0",
-                    height: "1.1595988571643829",
-                    id: signalId.ToString(),
-                    name: "Signal_3Light_Post01",
-                    orientation: "+",
-                    pitch: "0",
-                    roll: "1.57079632679",
-                    s: "4.7935599305216234",
-                    subtype: "-1",
-                    t: "5",
-                    text: "",
-                    type: "1000001",
-                    value: "-1",
-                    width: "0.5249232020563757",
-                    zOffset: "0.0"
-                );
+            //if (traffic_light)
+            //{
+            //    var signals = incomingRoad2.AddSignalsElement();
+            //    signals.AddSignalElement(
+            //        country: "OpenDRIVE",
+            //        dynamic: "yes",
+            //        hOffset: "0.0",
+            //        height: "1.1595988571643829",
+            //        id: signalId.ToString(),
+            //        name: "Signal_3Light_Post01",
+            //        orientation: "-",
+            //        pitch: "0",
+            //        roll: "-1.57079632679",
+            //        s: "4.7935599305216234",
+            //        subtype: "-1",
+            //        t: "5",
+            //        text: "",
+            //        type: "1000001",
+            //        value: "-1",
+            //        width: "0.5249232020563757",
+            //        zOffset: "0.0"
+            //    );
 
-                signalId++;
-            }
+            //    signalId++;
+            //}
 
             float startX3 = startX + 9f * (float)Math.Cos(hdg) + 9f * (float)Math.Sin(hdg);
             float startY3 = startY + 9f * (float)Math.Sin(hdg) - 9f * (float)Math.Cos(hdg);
@@ -877,7 +877,7 @@ namespace OpenDriveXMLGenerator
                     roll: "1.57079632679",
                     s: "4.7935599305216234",
                     subtype: "-1",
-                    t: "5",
+                    t: "-5",
                     text: "",
                     type: "1000001",
                     value: "-1",
@@ -894,31 +894,31 @@ namespace OpenDriveXMLGenerator
             var incomingRoadId4 = id;
             var incomingRoad4 = this.AddStraightRoad(startX4, startY4, hdg4, 0.5f, false);
 
-            if (traffic_light)
-            {
-                var signals = incomingRoad4.AddSignalsElement();
-                signals.AddSignalElement(
-                    country: "OpenDRIVE",
-                    dynamic: "yes",
-                    hOffset: "0.0",
-                    height: "1.1595988571643829",
-                    id: signalId.ToString(),
-                    name: "Signal_3Light_Post01",
-                    orientation: "+",
-                    pitch: "0",
-                    roll: "1.57079632679",
-                    s: "4.7935599305216234",
-                    subtype: "-1",
-                    t: "5",
-                    text: "",
-                    type: "1000001",
-                    value: "-1",
-                    width: "0.5249232020563757",
-                    zOffset: "0.0"
-                );
+            //if (traffic_light)
+            //{
+            //    var signals = incomingRoad4.AddSignalsElement();
+            //    signals.AddSignalElement(
+            //        country: "OpenDRIVE",
+            //        dynamic: "yes",
+            //        hOffset: "0.0",
+            //        height: "1.1595988571643829",
+            //        id: signalId.ToString(),
+            //        name: "Signal_3Light_Post01",
+            //        orientation: "-",
+            //        pitch: "0",
+            //        roll: "-1.57079632679",
+            //        s: "4.7935599305216234",
+            //        subtype: "-1",
+            //        t: "5",
+            //        text: "",
+            //        type: "1000001",
+            //        value: "-1",
+            //        width: "0.5249232020563757",
+            //        zOffset: "0.0"
+            //    );
 
-                signalId++;
-            }
+            //    signalId++;
+            //}
 
             float startXCurve1 = startX + 9f * (float)Math.Cos(hdg) + 8.5f * (float)Math.Sin(hdg);
             float startYCurve1 = startY + 9f * (float)Math.Sin(hdg) - 8.5f * (float)Math.Cos(hdg);
