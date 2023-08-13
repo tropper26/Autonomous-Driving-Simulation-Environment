@@ -91,7 +91,7 @@ namespace scripts
             int minute = System.DateTime.Now.Minute;
             int second = System.DateTime.Now.Second;
 
-            string path = Path.Combine(Environment.CurrentDirectory, "Maps");
+            string path = Path.Combine(Application.dataPath, "Maps");
             if (!Directory.Exists(path))
             {
                 Directory.CreateDirectory(path);
