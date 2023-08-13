@@ -78,6 +78,8 @@ We recommend using the Package Installation 0.9.13 for a convenient and quick se
    - Download the package version 0.9.13 from `Github <https://github.com/carla-simulator/carla/releases/tag/0.9.13>`_.
    - Extract the downloaded package to a desired location.
 
+5. Copy the contents of the 'carla_scripts' folder into <CARLA_0.9.x/WindowsNoEditor/PythonAPI/examples>
+
 For more detailed instructions and information on Linux setup, refer to the official `Carla Documentation <https://carla.readthedocs.io/en/0.9.13/start_quickstart/>`_.
 
 
@@ -88,13 +90,34 @@ How to use
 How to use the Unity Map Editor on Windows
 -------------------------------------------------------------------------
 
-Create a road network by dragging road pieces onto the map
+1. Create a road network by dragging road pieces onto the map (Screenshot - 1.1)
 
-For a list of useful keyboard shortcuts, click the "Help" button in the bottom right corner. To close the help, click the "Help" button again
+2. For a list of useful keyboard shortcuts (Screenshot - 1.3), click the "Help" button in the bottom right corner (Screenshot - 1.2). To close the help, click the "Help" button again.
 
-Once you've finished creating the road network, export the map to an .XODR format: Click the "Export" button in the top right corner. You will receive a confirmation of your export
+3. Once you've finished creating the road network, export the map to an .XODR format: Click the "Export" button in the top right corner (Screenshot - 1.4). You will receive a confirmation of your export  (Screenshot - 1.5)
 
-All exported maps will be saved in the "ADSE/Unity Map Editor_Data/Maps" directory
+4. All exported maps will be saved in the <ADSE/Unity Map Editor_Data/Maps> directory
+
+.. list-table::
+   :widths: 100
+   :header-rows: 1
+
+   * - Unity Map Editor
+   * - .. image:: https://github.com/tropper26/Autonomous-Driving-Simulation-Environment/blob/main/img/unity_map_editor.png
+         :width: 100%
+         :alt: Unity Map Editor
+         :align: center
+
+How to run exported Map in CARLA
+--------------------------------
+
+1. Add your exported XODR file to <CARLA_0.9.x/WindowsNoEditor/PythonAPI/examples/opendrive>
+
+2. Run the following command in the examples folder::
+
+.. code-block:: python
+
+   python .\generate_opendrive_map.py <YourFileNameHere>.xodr
 
 Developer documentation
 -----------------------
