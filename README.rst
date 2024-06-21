@@ -1,5 +1,5 @@
 =========================================
-Autonomous Driving Simulation Environment
+Traffic Network Builder
 =========================================
 
 .. list-table::
