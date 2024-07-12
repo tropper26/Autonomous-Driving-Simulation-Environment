@@ -8,29 +8,25 @@ Traffic Network Builder
    :align: center
 
 .. list-table::
-   :widths: 100
+   :widths: 33 33 33
    :header-rows: 1
 
-   * - Exported Unity Map
+   * - Exported Map
+     - OpenDRIVE Map
+     - Carla Map
    * - .. image:: https://github.com/tropper26/Autonomous-Driving-Simulation-Environment/blob/main/img/unity_map.png
          :width: 100%
          :alt: Unity Map
-         :align: center
-
-.. list-table::
-   :widths: 50 50
-   :header-rows: 1
-
-   * - Carla Map
-     - OpenDRIVE Map
-   * - .. image:: https://github.com/tropper26/Autonomous-Driving-Simulation-Environment/blob/main/img/carla_map.png
-         :width: 100%
-         :alt: Carla Map
          :align: center
      - .. image:: https://github.com/tropper26/Autonomous-Driving-Simulation-Environment/blob/main/img/openDRIVE-viewer_map.png
          :width: 100%
          :alt: OpenDRIVE Map
          :align: center
+     - .. image:: https://github.com/tropper26/Autonomous-Driving-Simulation-Environment/blob/main/img/carla_map.png
+         :width: 100%
+         :alt: Carla Map
+         :align: center
+
 
 
 
@@ -49,7 +45,7 @@ The goal of this international team project was the development of a Traffic Net
 
 1. `The OpenDRIVE Standard <https://www.asam.net/standards/detail/opendrive/>`__ - A standardized format for representing road networks, used to create maps for autonomous driving simulations.
 2. `Carla Driving Simulator <https://carla.org/>`__ - An open-source autonomous driving simulator that enables researchers and developers to experiment with various algorithms in a realistic environment.
-3. `AI Testing Simulator <https://github.com/jodi106/AI_Testing_Simulator/>`__ - The previous international collaboration which this project is based on
+3. `AI Testing Simulator <https://github.com/jodi106/AI_Testing_Simulator/>`__ - The previous international collaboration which this project is extending.
 
 
 Setup
@@ -72,6 +68,8 @@ We recommend using the Package Installation 0.9.13 for a convenient and quick se
 2. Read the "Before you begin" section in the `Carla documentation <https://carla.readthedocs.io/en/0.9.13/start_quickstart/>`_ to check prerequisites.
 
 3. Install the required Python modules "pygame" and "numpy" as well as the "carla" package to your Python environment using the following commands::
+
+.. code-block:: python
 
    pip3 install --user pygame numpy
    pip3 install carla
@@ -118,6 +116,8 @@ How to run exported Map in CARLA
 
 2. Run the following command in the examples folder::
 
+.. code-block:: python
+
    python .\generate_opendrive_map.py <YourFileNameHere>.xodr
 
 Many more examples can be found in `\carla_scripts\opendrive`
@@ -132,17 +132,14 @@ Known Issues
 ============
 
 * As of Carla 0.9.13, the generated maps are not fully compatible with the simulator. This implementation relies on Carla's integration of ASAM OpenDRIVE. 
-Even though not clearly stated in the docs `<https://carla.readthedocs.io/en/latest/adv_opendrive/>`, the simulator seems to implement an early version of the 
-standard leaving many features unsupported:
+Even though not clearly stated in the docs `https://carla.readthedocs.io/en/latest/adv_opendrive/`, the simulator seems to implement an early version of the standard leaving many features unsupported:
 
 * Road markings are not visible
 * Lanes marked as parking do not generate
 * The exact position of traffic signs & lights does not seem to translate correctly from the openDRIVE format
 * Spawnpoints are do not always generate correctly
 
-Solving these issues would require making changes to the Carla simulator itself which requires a different set of skills and resources that are not available 
-to the team at this time. As of now, the project is on hold.
-
+Solving these issues would require making changes to the Carla simulator itself which requires a different set of skills and resources that are not available at this time. As of now, the project is on hold.
 
 
 Credits
