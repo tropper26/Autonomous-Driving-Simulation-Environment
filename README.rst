@@ -132,7 +132,7 @@ Known Issues
 ============
 
 * As of Carla 0.9.13, the generated maps are not fully compatible with the simulator. This implementation relies on Carla's integration of ASAM OpenDRIVE. 
-Even though not clearly stated in the docs `https://carla.readthedocs.io/en/latest/adv_opendrive/`, the simulator seems to implement an early version of the standard leaving many features unsupported:
+Even though not clearly stated in the docs (`https://carla.readthedocs.io/en/latest/adv_opendrive/`), the simulator seems to implement an early version of the standard leaving many features unsupported:
 
 * Road markings are not visible
 * Lanes marked as parking do not generate
