@@ -104,7 +104,7 @@ How to use the Unity Map Editor on Windows
    :header-rows: 1
 
    * - Unity Map Editor
-   * - .. image:: https://github.com/tropper26/Autonomous-Driving-Simulation-Environment/blob/main/img/unity_map_editor.png
+   * - .. image:: /media/unity_map_editor.png
          :width: 100%
          :alt: Unity Map Editor
          :align: center
@@ -120,7 +120,7 @@ How to run exported Map in CARLA
 
    python .\generate_opendrive_map.py <YourFileNameHere>.xodr
 
-Many more examples can be found in `\carla_scripts\opendrive`
+Many more examples can be found in the `opendrive folder <./carla_scripts/opendrive>`_
 
 Developer documentation
 -----------------------
