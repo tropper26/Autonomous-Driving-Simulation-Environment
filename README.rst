@@ -14,15 +14,15 @@ Traffic Network Builder
    * - Exported Map
      - OpenDRIVE Map
      - Carla Map
-   * - .. image:: https://github.com/tropper26/Autonomous-Driving-Simulation-Environment/blob/main/img/unity_map.png
+   * - .. image:: /media/unity_map.png
          :width: 100%
          :alt: Unity Map
          :align: center
-     - .. image:: https://github.com/tropper26/Autonomous-Driving-Simulation-Environment/blob/main/img/openDRIVE-viewer_map.png
+     - .. image:: /media/openDRIVE-viewer_map.png
          :width: 100%
          :alt: OpenDRIVE Map
          :align: center
-     - .. image:: https://github.com/tropper26/Autonomous-Driving-Simulation-Environment/blob/main/img/carla_map.png
+     - .. image:: /media/carla_map.png
          :width: 100%
          :alt: Carla Map
          :align: center
