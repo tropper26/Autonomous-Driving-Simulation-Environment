@@ -2,6 +2,11 @@
 Traffic Network Builder
 =========================================
 
+.. image:: /media/traffic_network_builder.gif
+   :width: 100%
+   :alt: Traffic Network Builder Demo
+   :align: center
+
 .. list-table::
    :widths: 100
    :header-rows: 1
@@ -47,14 +52,14 @@ The goal of this international team project was the development of a Traffic Net
 3. `AI Testing Simulator <https://github.com/jodi106/AI_Testing_Simulator/>`__ - The previous international collaboration which this project is based on
 
 
-How to set up
+Setup
 =============
 
-How to set up the Autonomous-Driving-Simulator-Environment (ADSE) on Windows 
+How to set up the Traffic Network Builder on Windows 
 ---------------------------------------------------------------------------
 
-1. Download the ADSE.zip file from the latest release notes on GitHub: `Releases <https://github.com/tropper26/Autonomous-Driving-Simulation-Environment/releases>`_  
-2. Extract the downloaded ADSE.zip file to your desired location  
+1. Download the zip file from the latest release notes on GitHub: `Releases <https://github.com/tropper26/Autonomous-Driving-Simulation-Environment/releases>`_  
+2. Extract the downloaded zip file to your desired location  
 3. To start the application, open the Unity Map Editor.exe file. Accept any pop-ups that appear during installation
 
 How to set up Carla 0.9.13 on Windows
@@ -67,8 +72,6 @@ We recommend using the Package Installation 0.9.13 for a convenient and quick se
 2. Read the "Before you begin" section in the `Carla documentation <https://carla.readthedocs.io/en/0.9.13/start_quickstart/>`_ to check prerequisites.
 
 3. Install the required Python modules "pygame" and "numpy" as well as the "carla" package to your Python environment using the following commands::
-
-.. code-block:: python
 
    pip3 install --user pygame numpy
    pip3 install carla
@@ -96,7 +99,7 @@ How to use the Unity Map Editor on Windows
 
 3. Once you've finished creating the road network, export the map to an .XODR format: Click the "Export" button in the top right corner (Screenshot - 1.4). You will receive a confirmation of your export  (Screenshot - 1.5)
 
-4. All exported maps will be saved in the <ADSE/Unity Map Editor_Data/Maps> directory
+4. All exported maps will be saved in the <Maps> directory
 
 .. list-table::
    :widths: 100
@@ -115,14 +118,32 @@ How to run exported Map in CARLA
 
 2. Run the following command in the examples folder::
 
-.. code-block:: python
-
    python .\generate_opendrive_map.py <YourFileNameHere>.xodr
+
+Many more examples can be found in `\carla_scripts\opendrive`
 
 Developer documentation
 -----------------------
 
 * `Doxygen Website <https://tropper26.github.io/Autonomous-Driving-Simulation-Environment/>`_
+
+
+Known Issues
+============
+
+* As of Carla 0.9.13, the generated maps are not fully compatible with the simulator. This implementation relies on Carla's integration of ASAM OpenDRIVE. 
+Even though not clearly stated in the docs `<https://carla.readthedocs.io/en/latest/adv_opendrive/>`, the simulator seems to implement an early version of the 
+standard leaving many features unsupported:
+
+* Road markings are not visible
+* Lanes marked as parking do not generate
+* The exact position of traffic signs & lights does not seem to translate correctly from the openDRIVE format
+* Spawnpoints are do not always generate correctly
+
+Solving these issues would require making changes to the Carla simulator itself which requires a different set of skills and resources that are not available 
+to the team at this time. As of now, the project is on hold.
+
+
 
 Credits
 =======
@@ -136,4 +157,3 @@ The team consists of:
 * `Dragos <https://github.com/Gustyx/>`_
 * `Mircea <https://github.com/IlinaMn/>`_
 * `Andrada <https://github.com/andradademian/>`_
-

@@ -1,0 +1,769 @@
+<OpenDRIVE>
+  <header revMajor="1" revMinor="4" name="" version="" north="3.4040445389524979e+2" south="-2.8943958368362757e+2" east="3.3085867381572922e+2" west="-3.1262489222340042e+2" vendor="VectorZero" />
+  <geoReference><![CDATA[+proj=tmerc +lat_0=0 +lon_0=0 +k=1 +x_0=0 +y_0=0 +datum=WGS84 +units=m +geoidgrids=egm96_15.gtx +vunits=m +no_defs]]></geoReference>
+  <userData>
+    <vectorScene program="RoadRunner" version="2019.2.12 (build 5161c15)" />
+  </userData>
+  <junction name="Junction 0" id="0">
+    <connection id="0" incomingRoad="8" connectingRoad="4" />
+    <connection id="1" incomingRoad="12" connectingRoad="4" />
+    <connection id="2" incomingRoad="9" connectingRoad="5" />
+    <connection id="3" incomingRoad="13" connectingRoad="5" />
+    <connection id="4" incomingRoad="10" connectingRoad="6" />
+    <connection id="5" incomingRoad="14" connectingRoad="6" />
+    <connection id="6" incomingRoad="11" connectingRoad="7" />
+    <connection id="7" incomingRoad="15" connectingRoad="7" />
+    <connection id="8" incomingRoad="7" connectingRoad="8" />
+    <connection id="9" incomingRoad="4" connectingRoad="9" />
+    <connection id="10" incomingRoad="5" connectingRoad="10" />
+    <connection id="11" incomingRoad="6" connectingRoad="11" />
+    <connection id="12" incomingRoad="0" connectingRoad="12" />
+    <connection id="13" incomingRoad="1" connectingRoad="13" />
+    <connection id="14" incomingRoad="2" connectingRoad="14" />
+    <connection id="15" incomingRoad="3" connectingRoad="15" />
+    <connection id="16" incomingRoad="7" connectingRoad="16" />
+    <connection id="17" incomingRoad="4" connectingRoad="17" />
+    <connection id="18" incomingRoad="5" connectingRoad="18" />
+    <connection id="19" incomingRoad="6" connectingRoad="19" />
+  </junction>
+  <road name="Road 0" length="5.5999755859375" id="0" junction="-1">
+    <link>
+      <successor elementType="road" elementId="12" />
+      <successor elementType="road" elementId="16" />
+    </link>
+    <planView>
+      <geometry s="0.0" x="-7.156957" y="-1.145895" hdg="0" length="5.5999755859375">
+        <line />
+      </geometry>
+    </planView>
+    <lanes>
+      <laneSection s="0">
+        <left>
+          <lane id="2" type="sidewalk" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="1.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+          <lane id="1" type="driving" level="false">
+            <link>
+              <successor elementId="1" />
+            </link>
+            <width sOffset="0.0000000000000000e+000" a="3.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </left>
+        <center>
+          <lane id="0" type="none" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="0" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </center>
+        <right>
+          <lane id="-1" type="driving" level="false">
+            <link>
+              <successor elementId="-1" />
+            </link>
+            <width sOffset="0.0000000000000000e+000" a="3.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+          <lane id="-2" type="sidewalk" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="1.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </right>
+      </laneSection>
+    </lanes>
+  </road>
+  <road name="Road 1" length="5.5999755859375" id="1" junction="-1">
+    <link>
+      <successor elementType="road" elementId="13" />
+      <successor elementType="road" elementId="17" />
+    </link>
+    <planView>
+      <geometry s="0.0" x="12.84304" y="-21.1459" hdg="1.570796" length="5.5999755859375">
+        <line />
+      </geometry>
+    </planView>
+    <lanes>
+      <laneSection s="0">
+        <left>
+          <lane id="2" type="sidewalk" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="1.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+          <lane id="1" type="driving" level="false">
+            <link>
+              <successor elementId="1" />
+            </link>
+            <width sOffset="0.0000000000000000e+000" a="3.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </left>
+        <center>
+          <lane id="0" type="none" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="0" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </center>
+        <right>
+          <lane id="-1" type="driving" level="false">
+            <link>
+              <successor elementId="-1" />
+            </link>
+            <width sOffset="0.0000000000000000e+000" a="3.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+          <lane id="-2" type="sidewalk" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="1.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </right>
+      </laneSection>
+    </lanes>
+  </road>
+  <road name="Road 2" length="5.5999755859375" id="2" junction="-1">
+    <link>
+      <successor elementType="road" elementId="14" />
+      <successor elementType="road" elementId="18" />
+    </link>
+    <planView>
+      <geometry s="0.0" x="27.24307" y="-1.145895" hdg="0" length="5.5999755859375">
+        <line />
+      </geometry>
+    </planView>
+    <lanes>
+      <laneSection s="0">
+        <left>
+          <lane id="2" type="sidewalk" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="1.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+          <lane id="1" type="driving" level="false">
+            <link>
+              <successor elementId="1" />
+            </link>
+            <width sOffset="0.0000000000000000e+000" a="3.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </left>
+        <center>
+          <lane id="0" type="none" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="0" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </center>
+        <right>
+          <lane id="-1" type="driving" level="false">
+            <link>
+              <successor elementId="-1" />
+            </link>
+            <width sOffset="0.0000000000000000e+000" a="3.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+          <lane id="-2" type="sidewalk" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="1.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </right>
+      </laneSection>
+    </lanes>
+  </road>
+  <road name="Road 3" length="5.5999755859375" id="3" junction="-1">
+    <link>
+      <successor elementType="road" elementId="15" />
+      <successor elementType="road" elementId="19" />
+    </link>
+    <planView>
+      <geometry s="0.0" x="12.84304" y="18.8541" hdg="-1.570796" length="5.5999755859375">
+        <line />
+      </geometry>
+    </planView>
+    <lanes>
+      <laneSection s="0">
+        <left>
+          <lane id="2" type="sidewalk" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="1.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+          <lane id="1" type="driving" level="false">
+            <link>
+              <successor elementId="1" />
+            </link>
+            <width sOffset="0.0000000000000000e+000" a="3.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </left>
+        <center>
+          <lane id="0" type="none" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="0" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </center>
+        <right>
+          <lane id="-1" type="driving" level="false">
+            <link>
+              <successor elementId="-1" />
+            </link>
+            <width sOffset="0.0000000000000000e+000" a="3.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+          <lane id="-2" type="sidewalk" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="1.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </right>
+      </laneSection>
+    </lanes>
+  </road>
+  <road name="Road 4" length="7.062282" id="4" junction="0">
+    <link>
+      <predecessor elementType="road" elementId="8" />
+      <predecessor elementType="road" elementId="12" />
+      <successor elementType="road" elementId="9" />
+      <successor elementType="road" elementId="17" />
+    </link>
+    <planView>
+      <geometry s="0.0" x="4.996418" y="-4.144305" hdg="-1.205792" length="7.062282">
+        <arc curvature="1.1904762445393628e-01" />
+      </geometry>
+    </planView>
+    <lanes>
+      <laneSection s="0">
+        <center>
+          <lane id="0" type="none" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="0" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </center>
+        <right>
+          <lane id="-1" type="driving" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="4" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+          <lane id="-2" type="sidewalk" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="1.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </right>
+      </laneSection>
+    </lanes>
+  </road>
+  <road name="Road 5" length="7.062282" id="5" junction="0">
+    <link>
+      <predecessor elementType="road" elementId="9" />
+      <predecessor elementType="road" elementId="13" />
+      <successor elementType="road" elementId="10" />
+      <successor elementType="road" elementId="18" />
+    </link>
+    <planView>
+      <geometry s="0.0" x="15.84145" y="-8.992521" hdg="0.3642082" length="7.062282">
+        <arc curvature="1.1904762445393628e-01" />
+      </geometry>
+    </planView>
+    <lanes>
+      <laneSection s="0">
+        <center>
+          <lane id="0" type="none" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="0" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </center>
+        <right>
+          <lane id="-1" type="driving" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="4" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+          <lane id="-2" type="sidewalk" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="1.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </right>
+      </laneSection>
+    </lanes>
+  </road>
+  <road name="Road 6" length="7.062282" id="6" junction="0">
+    <link>
+      <predecessor elementType="road" elementId="10" />
+      <predecessor elementType="road" elementId="14" />
+      <successor elementType="road" elementId="11" />
+      <successor elementType="road" elementId="19" />
+    </link>
+    <planView>
+      <geometry s="0.0" x="20.68967" y="1.852514" hdg="1.934208" length="7.062282">
+        <arc curvature="1.1904762445393628e-01" />
+      </geometry>
+    </planView>
+    <lanes>
+      <laneSection s="0">
+        <center>
+          <lane id="0" type="none" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="0" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </center>
+        <right>
+          <lane id="-1" type="driving" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="4" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+          <lane id="-2" type="sidewalk" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="1.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </right>
+      </laneSection>
+    </lanes>
+  </road>
+  <road name="Road 7" length="7.062282" id="7" junction="0">
+    <link>
+      <predecessor elementType="road" elementId="11" />
+      <predecessor elementType="road" elementId="15" />
+      <successor elementType="road" elementId="8" />
+      <successor elementType="road" elementId="16" />
+    </link>
+    <planView>
+      <geometry s="0.0" x="9.844634" y="6.70073" hdg="3.504208" length="7.062282">
+        <arc curvature="1.1904762445393628e-01" />
+      </geometry>
+    </planView>
+    <lanes>
+      <laneSection s="0">
+        <center>
+          <lane id="0" type="none" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="0" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </center>
+        <right>
+          <lane id="-1" type="driving" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="4" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+          <lane id="-2" type="sidewalk" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="1.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </right>
+      </laneSection>
+    </lanes>
+  </road>
+  <road name="Road 8" length="6.132076" id="8" junction="0">
+    <link>
+      <predecessor elementType="road" elementId="7" />
+      <successor elementType="road" elementId="4" />
+    </link>
+    <planView>
+      <geometry s="0.0" x="4.996536" y="1.852823" hdg="4.344956" length="6.132076">
+        <arc curvature="1.1904762445393628e-01" />
+      </geometry>
+    </planView>
+    <lanes>
+      <laneSection s="0">
+        <center>
+          <lane id="0" type="none" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="0" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </center>
+        <right>
+          <lane id="-1" type="driving" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="4" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </right>
+      </laneSection>
+    </lanes>
+  </road>
+  <road name="Road 9" length="6.132076" id="9" junction="0">
+    <link>
+      <predecessor elementType="road" elementId="4" />
+      <successor elementType="road" elementId="5" />
+    </link>
+    <planView>
+      <geometry s="0.0" x="9.844325" y="-8.992403" hdg="-0.365044" length="6.132076">
+        <arc curvature="1.1904762445393628e-01" />
+      </geometry>
+    </planView>
+    <lanes>
+      <laneSection s="0">
+        <center>
+          <lane id="0" type="none" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="0" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </center>
+        <right>
+          <lane id="-1" type="driving" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="4" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </right>
+      </laneSection>
+    </lanes>
+  </road>
+  <road name="Road 10" length="6.132076" id="10" junction="0">
+    <link>
+      <predecessor elementType="road" elementId="5" />
+      <successor elementType="road" elementId="6" />
+    </link>
+    <planView>
+      <geometry s="0.0" x="20.68967" y="-4.144614" hdg="1.204956" length="6.132076">
+        <arc curvature="1.1904762445393628e-01" />
+      </geometry>
+    </planView>
+    <lanes>
+      <laneSection s="0">
+        <center>
+          <lane id="0" type="none" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="0" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </center>
+        <right>
+          <lane id="-1" type="driving" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="4" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </right>
+      </laneSection>
+    </lanes>
+  </road>
+  <road name="Road 11" length="6.132076" id="11" junction="0">
+    <link>
+      <predecessor elementType="road" elementId="6" />
+      <successor elementType="road" elementId="7" />
+    </link>
+    <planView>
+      <geometry s="0.0" x="15.84176" y="6.700612" hdg="2.774956" length="6.132076">
+        <arc curvature="1.1904762445393628e-01" />
+      </geometry>
+    </planView>
+    <lanes>
+      <laneSection s="0">
+        <center>
+          <lane id="0" type="none" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="0" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </center>
+        <right>
+          <lane id="-1" type="driving" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="4" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </right>
+      </laneSection>
+    </lanes>
+  </road>
+  <road name="Road 12" length="7.7704795232679942" id="12" junction="0">
+    <link>
+      <predecessor elementType="road" elementId="0" />
+      <successor elementType="road" elementId="4" />
+    </link>
+    <planView>
+      <geometry s="0" x="-1.556981" y="-1.145895" hdg="0" length="2.8722833994166841e-01">
+        <line />
+      </geometry>
+      <geometry s="2.8706087295301153e-01" x="-1.26975274678929" y="-1.14589548110962" hdg="0" length="3.7278138864132848">
+        <arc curvature="-7.0850666500999637e-02" />
+      </geometry>
+      <geometry s="4.0150422263549537e+0" x="2.41487102210652" y="-1.63533189675038" hdg="-0.264118098444063" length="3.4683764239600299e+00">
+        <arc curvature="-2.7150009545203924e-01" />
+      </geometry>
+      <geometry s="7.4832511833263258e+00" x="4.89391553429457" y="-3.87607149018698" hdg="-1.20578262861281" length="2.8706087295301153e-01">
+        <line />
+      </geometry>
+    </planView>
+    <lanes>
+      <laneSection s="0">
+        <center>
+          <lane id="0" type="none" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="0" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </center>
+        <left>
+          <lane id="-1" type="driving" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="3.5000000000000000e+00" b="0.0000000000000000e+00" c="2.4842518299085264e-02" d="-2.1313586653776513e-03" />
+          </lane>
+          <lane id="-2" type="sidewalk" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="1.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </left>
+      </laneSection>
+    </lanes>
+  </road>
+  <road name="Road 13" length="7.7704795232679942" id="13" junction="0">
+    <link>
+      <predecessor elementType="road" elementId="1" />
+      <successor elementType="road" elementId="5" />
+    </link>
+    <planView>
+      <geometry s="0" x="12.84304" y="-15.54592" hdg="1.57" length="2.8722833994166841e-01">
+        <line />
+      </geometry>
+      <geometry s="2.8706087295301153e-01" x="12.8432720398717" y="-15.258691163994" hdg="1.57" length="3.7278138864132848">
+        <arc curvature="-7.0850666500999637e-02" />
+      </geometry>
+      <geometry s="4.0150422263549537e+0" x="13.3356422807952" y="-11.5744582188321" hdg="1.30588195400802" length="3.4683764239600299e+00">
+        <arc curvature="-2.7150009545203924e-01" />
+      </geometry>
+      <geometry s="7.4832511833263258e+00" x="15.5783552058285" y="-9.0971986887679" hdg="0.364217423839273" length="2.8706087295301153e-01">
+        <line />
+      </geometry>
+    </planView>
+    <lanes>
+      <laneSection s="0">
+        <center>
+          <lane id="0" type="none" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="0" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </center>
+        <left>
+          <lane id="-1" type="driving" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="3.5000000000000000e+00" b="0.0000000000000000e+00" c="2.4842518299085264e-02" d="-2.1313586653776513e-03" />
+          </lane>
+          <lane id="-2" type="sidewalk" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="1.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </left>
+      </laneSection>
+    </lanes>
+  </road>
+  <road name="Road 14" length="7.7704795232679942" id="14" junction="0">
+    <link>
+      <predecessor elementType="road" elementId="2" />
+      <successor elementType="road" elementId="6" />
+    </link>
+    <planView>
+      <geometry s="0" x="27.24307" y="-1.145895" hdg="3.1415" length="2.8722833994166841e-01">
+        <line />
+      </geometry>
+      <geometry s="2.8706087295301153e-01" x="26.9558403551267" y="-1.14586886727653" hdg="3.1415" length="3.7278138864132848">
+        <arc curvature="-7.0850666500999637e-02" />
+      </geometry>
+      <geometry s="4.0150422263549537e+0" x="23.2712619361399" y="-0.656091043952901" hdg="2.87738189774124" length="3.4683764239600299e+00">
+        <arc curvature="-2.7150009545203924e-01" />
+      </geometry>
+      <geometry s="7.4832511833263258e+00" x="20.7924250450715" y="1.58487825131915" hdg="1.93571736757249" length="2.8706087295301153e-01">
+        <line />
+      </geometry>
+    </planView>
+    <lanes>
+      <laneSection s="0">
+        <center>
+          <lane id="0" type="none" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="0" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </center>
+        <left>
+          <lane id="-1" type="driving" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="3.5000000000000000e+00" b="0.0000000000000000e+00" c="2.4842518299085264e-02" d="-2.1313586653776513e-03" />
+          </lane>
+          <lane id="-2" type="sidewalk" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="1.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </left>
+      </laneSection>
+    </lanes>
+  </road>
+  <road name="Road 15" length="7.7704795232679942" id="15" junction="0">
+    <link>
+      <predecessor elementType="road" elementId="3" />
+      <successor elementType="road" elementId="7" />
+    </link>
+    <planView>
+      <geometry s="0" x="12.84304" y="13.25413" hdg="4.71" length="2.8722833994166841e-01">
+        <line />
+      </geometry>
+      <geometry s="2.8706087295301153e-01" x="12.8423571560726" y="12.9669018916152" hdg="4.71" length="3.7278138864132848">
+        <arc curvature="-7.0850666500999637e-02" />
+      </geometry>
+      <geometry s="4.0150422263549537e+0" x="12.3441197957619" y="9.28345789872376" hdg="4.44588193970291" length="3.4683764239600299e+00">
+        <arc curvature="-2.7150009545203924e-01" />
+      </geometry>
+      <geometry s="7.4832511833263258e+00" x="10.0974643246351" y="6.80977347149351" hdg="3.50421740953416" length="2.8706087295301153e-01">
+        <line />
+      </geometry>
+    </planView>
+    <lanes>
+      <laneSection s="0">
+        <center>
+          <lane id="0" type="none" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="0" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </center>
+        <left>
+          <lane id="-1" type="driving" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="3.5000000000000000e+00" b="0.0000000000000000e+00" c="2.4842518299085264e-02" d="-2.1313586653776513e-03" />
+          </lane>
+          <lane id="-2" type="sidewalk" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="1.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </left>
+      </laneSection>
+    </lanes>
+  </road>
+  <road name="Road 16" length="7.7704795232679942" id="16" junction="0">
+    <link>
+      <predecessor elementType="road" elementId="7" />
+      <successor elementType="road" elementId="0" />
+    </link>
+    <planView>
+      <geometry s="0" x="-1.556981" y="-1.145895" hdg="0" length="2.8722833994166841e-01">
+        <line />
+      </geometry>
+      <geometry s="2.8706087295301153e-01" x="-1.26975274678929" y="-1.14589548110962" hdg="0" length="3.7278138864132848">
+        <arc curvature="7.0850666500999637e-02" />
+      </geometry>
+      <geometry s="4.0150422263549537e+0" x="2.41487102210652" y="-0.656459065468862" hdg="0.264118098444063" length="3.4683764239600299e+00">
+        <arc curvature="2.7150009545203924e-01" />
+      </geometry>
+      <geometry s="7.4832511833263258e+00" x="4.89391553429457" y="1.58428052796774" hdg="1.20578262861281" length="2.8706087295301153e-01">
+        <line />
+      </geometry>
+    </planView>
+    <lanes>
+      <laneSection s="0">
+        <center>
+          <lane id="0" type="none" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="0" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </center>
+        <left>
+          <lane id="1" type="driving" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="3.500000000000000e+00" b="0.0000000000000000e+00" c="2.4842518299085271e-02" d="-2.1313586653776521e-03" />
+          </lane>
+          <lane id="2" type="sidewalk" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="1.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </left>
+      </laneSection>
+    </lanes>
+  </road>
+  <road name="Road 17" length="7.7704795232679942" id="17" junction="0">
+    <link>
+      <predecessor elementType="road" elementId="4" />
+      <successor elementType="road" elementId="1" />
+    </link>
+    <planView>
+      <geometry s="0" x="12.84304" y="-15.54592" hdg="1.57" length="2.8722833994166841e-01">
+        <line />
+      </geometry>
+      <geometry s="2.8706087295301153e-01" x="12.8432720398717" y="-15.258691163994" hdg="1.57" length="3.7278138864132848">
+        <arc curvature="7.0850666500999637e-02" />
+      </geometry>
+      <geometry s="4.0150422263549537e+0" x="12.3567697412405" y="-11.5736787675712" hdg="1.83411815089615" length="3.4683764239600299e+00">
+        <arc curvature="2.7150009545203924e-01" />
+      </geometry>
+      <geometry s="7.4832511833263258e+00" x="10.1180048149854" y="-9.09285075088497" hdg="2.7757826810649" length="2.8706087295301153e-01">
+        <line />
+      </geometry>
+    </planView>
+    <lanes>
+      <laneSection s="0">
+        <center>
+          <lane id="0" type="none" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="0" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </center>
+        <left>
+          <lane id="1" type="driving" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="3.500000000000000e+00" b="0.0000000000000000e+00" c="2.4842518299085271e-02" d="-2.1313586653776521e-03" />
+          </lane>
+          <lane id="2" type="sidewalk" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="1.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </left>
+      </laneSection>
+    </lanes>
+  </road>
+  <road name="Road 18" length="7.7704795232679942" id="18" junction="0">
+    <link>
+      <predecessor elementType="road" elementId="5" />
+      <successor elementType="road" elementId="2" />
+    </link>
+    <planView>
+      <geometry s="0" x="27.24307" y="-1.145895" hdg="3.1415" length="2.8722833994166841e-01">
+        <line />
+      </geometry>
+      <geometry s="2.8706087295301153e-01" x="26.9558403551267" y="-1.14586886727653" hdg="3.1415" length="3.7278138864132848">
+        <arc curvature="7.0850666500999637e-02" />
+      </geometry>
+      <geometry s="4.0150422263549537e+0" x="23.2711712363219" y="-1.63496387523441" hdg="3.40561809462937" length="3.4683764239600299e+00">
+        <arc curvature="2.7150009545203924e-01" />
+      </geometry>
+      <geometry s="7.4832511833263258e+00" x="20.7919191030142" y="-3.87547376683558" hdg="4.34728262479812" length="2.8706087295301153e-01">
+        <line />
+      </geometry>
+    </planView>
+    <lanes>
+      <laneSection s="0">
+        <center>
+          <lane id="0" type="none" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="0" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </center>
+        <left>
+          <lane id="1" type="driving" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="3.500000000000000e+00" b="0.0000000000000000e+00" c="2.4842518299085271e-02" d="-2.1313586653776521e-03" />
+          </lane>
+          <lane id="2" type="sidewalk" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="1.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </left>
+      </laneSection>
+    </lanes>
+  </road>
+  <road name="Road 19" length="7.7704795232679942" id="19" junction="0">
+    <link>
+      <predecessor elementType="road" elementId="6" />
+      <successor elementType="road" elementId="3" />
+    </link>
+    <planView>
+      <geometry s="0" x="12.84304" y="13.25413" hdg="4.71" length="2.8722833994166841e-01">
+        <line />
+      </geometry>
+      <geometry s="2.8706087295301153e-01" x="12.8423571560726" y="12.9669018916152" hdg="4.71" length="3.7278138864132848">
+        <arc curvature="7.0850666500999637e-02" />
+      </geometry>
+      <geometry s="4.0150422263549537e+0" x="13.3229898264658" y="9.28111943030142" hdg="4.97411813659104" length="3.4683764239600299e+00">
+        <arc curvature="2.7150009545203924e-01" />
+      </geometry>
+      <geometry s="7.4832511833263258e+00" x="15.5578007205974" y="6.79672901836206" hdg="5.91578266675979" length="2.8706087295301153e-01">
+        <line />
+      </geometry>
+    </planView>
+    <lanes>
+      <laneSection s="0">
+        <center>
+          <lane id="0" type="none" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="0" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </center>
+        <left>
+          <lane id="1" type="driving" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="3.500000000000000e+00" b="0.0000000000000000e+00" c="2.4842518299085271e-02" d="-2.1313586653776521e-03" />
+          </lane>
+          <lane id="2" type="sidewalk" level="false">
+            <link />
+            <width sOffset="0.0000000000000000e+000" a="1.5" b="0.0000000000000000e+000" c="0.0000000000000000e+000" d="0.0000000000000000e+000" />
+          </lane>
+        </left>
+      </laneSection>
+    </lanes>
+  </road>
+</OpenDRIVE>
